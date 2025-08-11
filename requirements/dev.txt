@@ -1,0 +1,35 @@
+# Web Framework
+fastapi==0.115.2
+uvicorn[standard]==0.30.1
+
+# Database - PostgreSQL
+psycopg2-binary==2.9.9
+sqlmodel==0.0.21
+
+# Caching - Redis
+redis==5.0.4
+
+# Dependency Injection
+dependency-injector==4.41.0
+
+# Environment variables
+python-dotenv==1.0.1
+
+# Security & Hashing
+passlib[bcrypt]==1.7.4
+pycryptodome==3.20.0   # For PGP-like encryption support
+
+# Testing
+pytest==8.3.2
+httpx==0.27.0
+
+# Code Quality
+black==24.4.2
+flake8==7.1.0
+isort==5.13.2
+
+# Type Checking
+mypy==1.10.0
+
+# API Docs Enhancement (optional)
+pydantic==2.7.4
