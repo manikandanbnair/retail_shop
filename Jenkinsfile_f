@@ -16,8 +16,10 @@ pipeline {
         stage('Test') {
             steps {
                 echo 'Testing...'
-                chmod +x run_tests.sh
-                ./run_tests.sh
+                sh'''
+                    chmod +x run_tests.sh
+                    ./run_tests.sh
+                '''
             }
         }
         stage('Deploy') {
